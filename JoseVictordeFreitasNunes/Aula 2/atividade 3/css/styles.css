@@ -1,0 +1,24 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("https://www.infomoney.com.br/wp-content/uploads/2019/08/fundos-imobiliarios-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    color: white;
+}
+
+fieldset{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+label{
+    color: white;
+}
+button{
+    border-radius: 35%;
+    padding: 6px;
+    font-size: 15px;
+}
