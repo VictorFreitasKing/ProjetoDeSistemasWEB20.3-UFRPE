@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+}
+
+.cabecalho{
+    background-color: #3b5998;
+    color: white;
+    height: 130px;
+}
+
+.logo{
+    float: left;
+    padding-top: 2%;
+    padding-left: 15%;
+}
+
+.login{
+    background-color: #3b5998;
+    display: inline;
+    float: right;
+    padding-top: 2%;
+    padding-right: 15%;
+}
+
+.formulario{
+    display: inline-block;
+}
+
+.formCadastro{
+    width: 50%;
+}
+.login>a{
+    color: white;
+    float: right;
+    padding-right: 110px;
+    padding-top: 10px;
+}
+
+.buttonIndex{
+    background-color: #3b5998;
+    color: white;
+
+}
+
+.corpo{
+    background-image: linear-gradient(white, Gainsboro);
+    height: 800px;
+}
+
+.esquerdo{
+    float: left;
+    width: 40%;
+}
+
+.esquerdo>h2{
+    width: 50%;
+}
+
+.direito{
+    float: right;
+    width: 40%;
+}
+
+/* Usei o tooltip da net ;-; */
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    position: absolute;
+
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+  
+
+  }
+  
+  .tooltip .tooltiptext::after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .direito{
+      size: 50%;
+      float: right;
+  }

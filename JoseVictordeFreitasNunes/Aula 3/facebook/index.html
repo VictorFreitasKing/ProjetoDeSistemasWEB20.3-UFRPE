@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="cabecalho">
+        <div class="logo">
+            <a href="./index.html"><img src="./images/logo.png" width="240px"></a>
+        </div>
+        <div class="login">
+            <form name="login" method="POST" action="#">
+                <div class="formulario">
+                    <label for="login">Email ou telefone:</label>
+                    <br>
+                    <input type="email or tel" name="login">
+                </div>
+                <div class="formulario">
+                    <label for="senha">Senha:</label>
+                    <br>
+                    <input type="password" name="senha">
+                </div>
+                <button class="buttonIndex">Entrar</button>
+            </form>
+            <a href="#">Esqueceu a senha?</a>
+        </div>
+
+    </div>
+
+    <Div class="corpo">
+        <div class="esquerdo">
+            <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
+            <img src="./images/imagem1.PNG">
+
+        </div>
+        <div class="direito">
+            <div class="formCadastro">
+                <form name="cadastro" method="POST" action="#">
+                    <h1>Abra uma conta</h1>
+                    <h3>É rápido e fácil</h3>
+                    <input type="text" name="nome">
+                    <input type="text" name="sobrenome">
+                    <br>
+                    <input type="email or tel" name="emailTel">
+                    <br>
+                    <input type="password" name="senha">
+                    <br>
+                    <label for="nascimento">Data de nascimento:</label>
+                    <br>
+                    <input type="date" name="nascimento">
+
+                    <div class="tooltip"><img src="./images/help.PNG">
+                        <span class="tooltiptext">Esse dado ficará visivel em seu perfil</span>
+                    </div>
+                    <br>
+                    <label for="sexo">Gênero:</label>
+                    <input type="radio" name="genero">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="genero">
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" name="genero">
+                    <label for="personalizado">Personalizado</label>
+                    <div class="tooltip"><img src="./images/help.PNG">
+                        <span class="tooltiptext">Esse dado ficará visivel em seu perfil</span>
+                    </div>
+                    <p>Ao clicar em inscreva-se, você concorda com nosso <a href="#">Termos Política de Dados</a> e <a
+                            href="#">Política de Cookies</a>.
+                        Você pode receber notificações por SMS e pode cancelar isso quando quiser. </p>
+            </div>
+            <button class="buttonCadastro">Inscrever-se</button>
+            </form>
+        </div>
+    </Div>
+
+</body>
+
+</html>
