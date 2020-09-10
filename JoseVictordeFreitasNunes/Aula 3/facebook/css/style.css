@@ -1,5 +1,6 @@
 *{
     margin: 0%;
+    
 }
 
 .cabecalho{
@@ -16,7 +17,6 @@
 
 .login{
     background-color: #3b5998;
-    display: inline;
     float: right;
     padding-top: 2%;
     padding-right: 15%;
@@ -26,9 +26,6 @@
     display: inline-block;
 }
 
-.formCadastro{
-    width: 50%;
-}
 .login>a{
     color: white;
     float: right;
@@ -43,23 +40,68 @@
 }
 
 .corpo{
-    background-image: linear-gradient(white, Gainsboro);
+    background-image: linear-gradient(white, Gainsboro);   
+    display: inline-block;
     height: 800px;
 }
 
 .esquerdo{
+    width: 35%;
     float: left;
-    width: 40%;
+    padding-left: 10%;
+    padding-top: 50px;
+    color: #3b5998;
 }
 
-.esquerdo>h2{
-    width: 50%;
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-weight: 100;
 }
 
 .direito{
+    width: 30%;
     float: right;
-    width: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    text-align: justify;
 }
+
+.inputCadastro{
+    font-size: 25px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.inputLargo{
+    width: 510px;
+}
+
+.element{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.buttonCadastro{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-image:linear-gradient(rgb(99, 158, 12), rgb(56, 88, 7)) ;
+    border-radius: 15px;
+    
+}
+
+.terms{
+    font-size: 12px;
+}
+
 
 /* Usei o tooltip da net ;-; */
 .tooltip {
@@ -96,7 +138,3 @@
     opacity: 1;
   }
 
-  .direito{
-      size: 50%;
-      float: right;
-  }
